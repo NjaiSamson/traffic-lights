@@ -1,0 +1,78 @@
+.timer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.timer-yellow {
+    color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.traffic-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.traffic-light {
+    width: 90%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.traffic-handle {
+    width: 5vw;
+    height: 15vh;
+    background-color: black;
+    margin: 0 auto 20px auto;
+}
+
+.red {
+    width: 8vw;
+    height: 8vw;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px red;
+}
+
+.yellow {
+    width: 8vw;
+    height: 8vw;
+    background-color: #FFBF00;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px #FFBF00;
+}
+
+.green {
+    width: 8vw;
+    height: 8vw;
+    background-color: rgb(7, 203, 7);
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgb(7, 203, 7);
+}
