@@ -2,7 +2,7 @@
 
 An interactive, web-based traffic light simulator featuring automatic cycling, countdown timers, and manual control. Built with vanilla HTML, CSS, and JavaScript.
 
-![Traffic Light Simulator](traffic-light.png)
+![Traffic Light Simulator](traffic_lights_imag.png)
 
 ## Features
 
@@ -22,7 +22,7 @@ traffic_lights/
 ├── index.html      # Main HTML structure
 ├── index.js        # JavaScript logic for traffic light behavior
 ├── styles.css      # Styling and visual effects
-├── traffic-light.png # Screenshot/demo image
+├── traffic_lights_imag.png # Screenshot/demo image
 └── README.md       # Project documentation
 ```
 
